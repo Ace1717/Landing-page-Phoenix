@@ -5,23 +5,32 @@ body{
 
 .header {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-evenly;
     color: #F9FAF8;
     background-color: #1F2937;
-    
     font-size: 24px;
+    
 }
+.Logo {
+    
+    width: 500px;
+}
+
 
 .links {
     display: flex;
     gap: 70px;
-    
+    width: 100px;
+   margin: 0;
+   padding: 10px;
+   padding-left: 30px;
 
 }
 
 ul {
    list-style: none;
+   
 }
 
 a {
@@ -30,3 +39,34 @@ a {
  font-size: 18px;
 }
 
+.top {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    height: 500px;
+    
+   
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 450px;
+    margin-top: 50px;
+}
+
+.para {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 500px;
+}
+
+img {
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+}
