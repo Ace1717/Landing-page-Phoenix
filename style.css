@@ -3,10 +3,10 @@ body{
     margin: 0;
 }
 
-.header {
+.header, .footer {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    
     color: #F9FAF8;
     background-color: #1F2937;
     font-size: 24px;
@@ -14,7 +14,9 @@ body{
 }
 .Logo {
     
-    width: 500px;
+    margin-left: 155px;
+    margin-right: 700px;
+    
 }
 
 
@@ -65,8 +67,111 @@ a {
     width: 500px;
 }
 
-img {
+.mainpic {
     width: 500px;
     height: 300px;
     margin-top: 50px;
 }
+ 
+button {
+    background-color: rgba(2, 179, 223, 0.534);
+    font-size: 12px;
+    width: 100px;
+    padding: 15px; 
+    color: orange;   
+    margin: 0;
+    margin-top: 20px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 36px;
+    color: #1F2937;
+    margin-top: 30px;
+}
+
+.wimg {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+    border: 3px solid #1F2937;
+    border-radius: 5px;
+}
+
+.text{
+    max-width: 200px;
+    text-align: center;
+}
+
+.third {
+    background-color: #E5E7EB;
+    height: 300px;
+    width: 1430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    align-items: end;
+}
+
+.fourth {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 1430px;
+    height: 240px;  
+
+}
+
+.info {
+    background-color: #3882f6;
+    width: 700px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}   
+
+.call {
+    font-weight: 800;
+}
+
+.call, .sign{
+    color: white;
+}
+
+.button2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+}
+
+.footer {
+    height: 80px;
+    justify-content: center;
+}
+
